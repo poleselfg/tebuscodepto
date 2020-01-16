@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.form-control {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: url(./images/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Rubik", sans-serif;
+  max-width: 100vw;
+}
+.textocolumna {
+  margin-left: 6%;
+  margin-top: 12%;
+}
+
+.h1amarillo {
+  font-family: "Rubik", bold;
+  font-weight: 1000;
+  color: #ffb700 !important;
+  font-size: 4.5vw;
+}
+
+.textocolumna h1 {
+  font-family: "Rubik", bold;
+  font-weight: 1000;
+  color: #3c57ab;
+  font-size: 4.8vw;
+}
+
+.textocolumna h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #3c57ab;
+  font-size: 2.8vw;
+}
+
+.textocolumna p {
+  font-family: "Rubik", sans-serif;
+  color: #666;
+  font-size: 1vw;
+}
+
+.lista {
+  margin-top: 106%;
+}
+
+.lista h1 {
+  font-family: "Rubik", bold;
+  font-weight: 1000;
+  color: #3c57ab;
+  font-size: 1.8vw;
+}
+
+.lista p {
+  font-family: "Rubik", sans-serif;
+  color: #666;
+  font-size: 0.8vw;
+}
+
+.formcont {
+  font-weight: 500;
+  color: #3c57ab;
+  font-size: 2.6vw;
+}
+
+.paper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 94vh;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 80vw;
+  border-radius: 15px;
+}
+
+.arriba {
+  margin-top: 200px;
+}
+
+span {
+  display: inline-block;
+
+  vertical-align: middle;
+
+  line-height: normal;
+}
+
+.bghome {
+  background: url(./images/inicio.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgsomos {
+  background: url(./images/quienessomos.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgregis {
+  background: url(./images/registro.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgblank {
+  background: url(./images/blank.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgdptoinfo {
+  background: url(./images/listadptoinfo.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgcoordinfo {
+  background: url(./images/coordinadainfo.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgcierreinfo {
+  background: url(./images/cerramosinfo.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgcontacto {
+  background: url(./images/contacto.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgregistro {
+  background: url(./images/formregistro.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 40px;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+  background-image: none;
+  border-color: transparent;
+  box-shadow: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: Medium;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  font-weight: Bold;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: #ffb700;
+  border-radius: 20px;
+  border: none;
+  color: #3c57ab;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px rgba(255, 183, 0, 0.2);
+  font-family: "Rubik Bold", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 6%;
+  bottom: 10%;
+}
+
+.buttonn {
+  background-color: #ffb700;
+  border-radius: 20px;
+  border: none;
+  color: #3c57ab;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px rgba(255, 183, 0, 0.2);
+  font-family: "Rubik Bold", sans-serif;
+  font-weight: bold;
+}
+
+.buttonreg {
+  background-color: gray;
+  border-radius: 20px;
+  border: none;
+  color: #d4ecff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px rgba(60, 87, 171, 0.2);
+  font-family: "Rubik Bold", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 22%;
+  bottom: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  width: 30%;
+  padding: 0 10px;
+  display: inline-block;
+  position: relative;
+  left: 70px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 82vh;
+  border-radius: 26px;
+}
+
+.listadpto {
+  background: url(./images/listadpto.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.coordinada {
+  background: url(./images/coordinada.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.trato {
+  background: url(./images/trato.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.buttoncomprar {
+  background-color: #ffb700;
+  border-radius: 20px;
+  border: none;
+  color: gray;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px rgba(255, 183, 0, 0.2);
+  font-family: "Rubik Bold", sans-serif;
+  font-weight: bold;
+  overflow: auto;
+  position: absolute;
+  right: 33%;
+  bottom: 15%;
+}
+
+.buttoninfo {
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  color: #ffb700;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px rgba(60, 87, 171, 0.2);
+  font-family: "Rubik Bold", sans-serif;
+  font-weight: bold;
+  overflow: auto;
+  position: absolute;
+  right: 38%;
+  bottom: 5%;
+}
+
+.buttoncomprar:hover {
+  transform: scale(1.3) perspective(1px);
+  text-decoration: none !important;
+}
+
+.buttoninfo:hover {
+  transform: scale(1.3) perspective(1px);
+  text-decoration: none !important;
+}
+
+.a {
+  text-decoration: none;
+  color: #3c57ab;
+}
+
+a:visited {
+  color: #3c57ab;
+}
+
+.contenedor-form {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 500px;
+  margin: 48px auto;
+  padding: 30px;
+}
+
+.contenedor-form .toggle {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  widows: 100px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.contenedor-form .toggle:hover {
+  border-top: 2px solid #ff851b;
+  border-bottom: 2px solid #ff851b;
+}

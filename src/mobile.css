@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+.logom {
+  max-width: 100%;
+}
+
+.white {
+  background: white;
+  margin: 0 auto;
+}
+
+.carousel {
+  height: 90vh;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+.shadow {
+  border-radius: 26px;
+  box-shadow: 10px 10px 5px #666;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
+  margin: 0 auto;
+}
+
+.home {
+  background: url("./mobile/Grupo5050.svg") no-repeat center center;
+  height: 70vh;
+  width: 100%;
+}
+
+.reg {
+  background: url("./mobile/Grupo5051.svg") no-repeat center center;
+  height: 100vh;
+  width: 100%;
+}
+
+.espec {
+  background: url("./mobile/Grupo5052.svg") no-repeat center center;
+  height: 100vh;
+  width: 100%;
+}
+
+.final {
+  background: url("./mobile/Grupo5053.svg") no-repeat center center;
+  height: 30vh;
+  width: 100%;
+}
+
+.contacto {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #3c57ab;
+  text-decoration: underline #ffb700;
+  border-bottom-width: 5px;
+  padding-bottom: 3px;
+}
+
+.container {
+  width: 100vw
+}
+
+.containerr {
+  position: relative;
+  width: 92vw;
+  margin: 4vw;
+}
+
+/* Make the image responsive */
+.containerr img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.containerr .btn {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.containerr .btn:hover {
+  background-color: black;
+}

@@ -1,0 +1,260 @@
+/*.center {
+  text-align: center;
+}
+
+body {
+  background: url(./components/images/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.paper {
+  position: relative;
+  display: inline-block;
+  left: 12%;
+  margin-top: 6vh;
+  height: 95vh;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 160vh;
+  border-radius: 15px;
+}
+
+
+
+
+.bghome {
+  background: url(./components/images/inicio.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgsomos {
+  background: url(./components/images/quienessomos.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgregis {
+  background: url(./components/images/registro.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgblank {
+  background: url(./components/images/blank.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgdptoinfo {
+  background: url(./components/images/listadptoinfo.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgcoordinfo {
+  background: url(./components/images/coordinadainfo.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgcierreinfo {
+  background: url(./components/images/cerramosinfo.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgregistro {
+  background: url(./components/images/formregistro.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 40px;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+  background-image: none;
+  border-color: transparent;
+  box-shadow: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: Medium;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #595959;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  font-weight: Bold;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: #ffb700;
+  border-radius: 20px;
+  border: none;
+  color: #3c57ab;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px rgba(255, 183, 0, 0.2);
+  font-family: "Rubik Bold", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  right: 1280px;
+  bottom: 200px;
+}
+
+.buttonreg {
+  background-color: gray;
+  border-radius: 20px;
+  border: none;
+  color: #d4ecff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px rgba(60, 87, 171, 0.2);
+  font-family: "Rubik Bold", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  right: 1100px;
+  bottom: 230px;
+}
+
+
+.listadpto {
+  background: url(./components/images/listadpto.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.coordinada {
+  background: url(./components/images/coordinada.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.trato {
+  background: url(./components/images/trato.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.buttoncomprar {
+  background-color: #ffb700;
+  border-radius: 20px;
+  border: none;
+  color: gray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px rgba(255, 183, 0, 0.2);
+  font-family: "Rubik Bold", sans-serif;
+  font-weight: bold;
+  overflow: auto;
+  position: absolute;
+  right: 160px;
+  bottom: 150px;
+}
+
+.buttoninfo {
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  color: #ffb700;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px rgba(60, 87, 171, 0.2);
+  font-family: "Rubik Bold", sans-serif;
+  font-weight: bold;
+  overflow: auto;
+  position: absolute;
+  right: 180px;
+  bottom: 80px;
+}
+
+.buttoncomprar:hover {
+  transform: scale(1.5) perspective(1px);
+}
+
+.buttoninfo:hover {
+  transform: scale(1.5) perspective(1px);
+}
+
+.a {
+  text-decoration: none;
+  color: #3c57ab;
+}
+
+a:visited {
+  color: #3c57ab;
+}
+
+.contenedor-form {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 500px;
+  margin: 48px auto;
+  padding: 30px;
+
+}
+
+.contenedor-form .toggle {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  widows: 100px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.contenedor-form .toggle:hover {
+  border-top: 2px solid #ff851b;
+  border-bottom: 2px solid #ff851b;
+}*/
